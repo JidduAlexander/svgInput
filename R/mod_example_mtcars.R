@@ -46,7 +46,6 @@ mod_example_mtcars_server <- function(id) {
         plotly::hide_colorbar() 
     })
     
-    
     shiny::observeEvent(input$mtcars_var, {
       shiny::req(input$mtcars_var)
       shinyjs::addClass(selector = "[data-shinyclick = 'wt']", class = "opaque40")

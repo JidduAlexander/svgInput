@@ -106,9 +106,6 @@ mod_get_started_server <- function(id, parent, tabs) {
     shiny::observeEvent(input$create_2_btn,  { rv_return(tabs[["set"]]) })
     shiny::observeEvent(input$create_3_btn,  { rv_return(tabs[["download"]]) })
     
-    
-    
-    
     shiny::reactive({ rv_return() })
   })
 }
